@@ -30,7 +30,7 @@ public class DWD_01_DwdBaseLogApp extends BaseAppV1 {
     private final String ACTION = "action";
 
     public static void main(String[] args) {
-        new DWD_01_DwdBaseLogApp().init(3001, 2, "DWD_01_DwdBaseLogApp", Constant.TOPIC_ODS_LOG);
+        new DWD_01_DwdBaseLogApp().init(3101, 2, "DWD_01_DwdBaseLogApp", Constant.TOPIC_ODS_LOG);
     }
 
     @Override
